@@ -278,10 +278,3 @@ body {
   }
 }
 
-/* احترام تفضيل تقليل الحركة بدون تعطيل رسم كلمة "التسامح" */
-@media (prefers-reduced-motion: reduce) {
-  body *:not(.draw-text) {
-    animation: none !important;
-    transition: none !important;
-  }
-}
